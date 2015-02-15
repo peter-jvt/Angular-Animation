@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Gemaco Test", "http://localhost:10043", "{721EA661-3B53-4D79-ACD5-10288B916092}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angular Animation", "http://localhost:10043", "{721EA661-3B53-4D79-ACD5-10288B916092}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_10043"
-		Debug.AspNetCompiler.PhysicalPath = "..\Gemaco Test\"
+		Debug.AspNetCompiler.PhysicalPath = "..\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10043\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_10043"
-		Release.AspNetCompiler.PhysicalPath = "..\Gemaco Test\"
+		Release.AspNetCompiler.PhysicalPath = "..\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10043\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\Gemaco Test\"
+		SlnRelativePath = "..\"
 	EndProjectSection
 EndProject
 Global
