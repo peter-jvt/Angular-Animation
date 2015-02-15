@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<meta name="generator" content="Adobe InDesign 10.2" />
+		<meta name="cover" content="x1.png" />
+		<meta property="ibooks:specified-fonts">true</meta>
+		<dc:title>Gemaco test 01</dc:title>
+		<dc:date>2015-02-13T14:15:40Z</dc:date>
+		<dc:language>en-US</dc:language>
+		<meta property="dcterms:modified">2015-02-13T14:15:40Z</meta>
+		<dc:identifier id="bookid">urn:uuid:BF9432CE-3C0F-4A4F-A4A4-7957C783D9CD</dc:identifier>
+		<!--fixed-layout options-->
+		<meta property="rendition:layout">pre-paginated</meta>
+		<meta property="rendition:orientation">portrait</meta>
+		<meta property="rendition:spread">none</meta>
+	</metadata>
+	<manifest>
+		<item id="Gemaco_test-1" href="Gemaco_test-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="Gemaco_test-2" href="Gemaco_test-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="Gemaco_test-3" href="Gemaco_test-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+		<item id="idGeneratedStyles.css" href="css/idGeneratedStyles.css" media-type="text/css" />
+		<item id="Montserrat-Bold.otf" href="font/Montserrat-Bold.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Montserrat-Hairline.otf" href="font/Montserrat-Hairline.otf" media-type="application/vnd.ms-opentype" />
+		<item id="Montserrat-Light.otf" href="font/Montserrat-Light.otf" media-type="application/vnd.ms-opentype" />
+		<item id="x1.png" href="image/1.png" media-type="image/png" properties="cover-image" />
+		<item id="x10.png" href="image/10.png" media-type="image/png" />
+		<item id="x13.png" href="image/13.png" media-type="image/png" />
+		<item id="x14.png" href="image/14.png" media-type="image/png" />
+		<item id="x17.png" href="image/17.png" media-type="image/png" />
+		<item id="x18.png" href="image/18.png" media-type="image/png" />
+		<item id="x2.png" href="image/2.png" media-type="image/png" />
+		<item id="x20.png" href="image/20.png" media-type="image/png" />
+		<item id="x21.png" href="image/21.png" media-type="image/png" />
+		<item id="x22.png" href="image/22.png" media-type="image/png" />
+		<item id="x3.png" href="image/3.png" media-type="image/png" />
+		<item id="x4.png" href="image/4.png" media-type="image/png" />
+		<item id="x41.png" href="image/41.png" media-type="image/png" />
+		<item id="x42.png" href="image/42.png" media-type="image/png" />
+		<item id="x44.png" href="image/44.png" media-type="image/png" />
+		<item id="x5.png" href="image/5.png" media-type="image/png" />
+		<item id="x6.png" href="image/6.png" media-type="image/png" />
+		<item id="x7.png" href="image/7.png" media-type="image/png" />
+		<item id="x70.png" href="image/70.png" media-type="image/png" />
+		<item id="x71.png" href="image/71.png" media-type="image/png" />
+		<item id="x72.png" href="image/72.png" media-type="image/png" />
+		<item id="x73.png" href="image/73.png" media-type="image/png" />
+		<item id="x8.png" href="image/8.png" media-type="image/png" />
+		<item id="x9.png" href="image/9.png" media-type="image/png" />
+	</manifest>
+	<spine>
+		<itemref idref="Gemaco_test-1" />
+		<itemref idref="Gemaco_test-2" />
+		<itemref idref="Gemaco_test-3" />
+	</spine>
+</package>
