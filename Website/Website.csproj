@@ -57,20 +57,41 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content.opf" />
+    <Content Include="Contact\Default.aspx" />
+    <Content Include="Content\animations.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\component.css" />
     <Content Include="Content\custom.css" />
+    <Content Include="Content\default.css" />
+    <Content Include="Content\fonts\codropsicons\codropsicons.svg" />
+    <Content Include="Content\fonts\codropsicons\license.txt" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\menuicons\icomoon.svg" />
+    <Content Include="Content\fonts\menuicons\license.txt" />
+    <Content Include="Content\fonts\segoeui.svg" />
+    <Content Include="Content\fonts\segoeuil.svg" />
+    <Content Include="Content\jquery.gridly.css" />
     <Content Include="Content\metro-bootstrap.css" />
     <Content Include="Content\metro-bootstrap.min.css" />
+    <Content Include="Content\multilevelmenu.css" />
+    <Content Include="Customer-Service\Default.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="font\Montserrat-Bold.otf" />
     <Content Include="font\Montserrat-Hairline.otf" />
     <Content Include="font\Montserrat-Light.otf" />
+    <Content Include="image\152b.png" />
+    <Content Include="image\25 - Copy.png" />
+    <Content Include="image\34b.png" />
+    <Content Include="image\36b.png" />
+    <Content Include="image\37b.png" />
+    <Content Include="image\arrow.png" />
+    <Content Include="image\logo-gemaco.jpg" />
+    <Content Include="products.html" />
+    <Content Include="Products\Default.aspx" />
     <Content Include="scripts\angular-animate.js" />
     <Content Include="scripts\angular-animate.min.js" />
     <Content Include="scripts\angular-mocks.js" />
@@ -163,12 +184,31 @@
     <Content Include="Content\metro-bootstrap\alerts.less" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
-    <Content Include="Content\custom.less" />
+    <Content Include="Content\fonts\codropsicons\codropsicons.eot" />
+    <Content Include="Content\fonts\codropsicons\codropsicons.ttf" />
+    <Content Include="Content\fonts\codropsicons\codropsicons.woff" />
+    <Content Include="Content\fonts\menuicons\icomoon.eot" />
+    <Content Include="Content\fonts\menuicons\icomoon.ttf" />
+    <Content Include="Content\fonts\menuicons\icomoon.woff" />
+    <Content Include="Content\fonts\Montserrat-Bold.otf" />
+    <Content Include="Content\fonts\Montserrat-Hairline.otf" />
+    <Content Include="Content\fonts\Montserrat-Light.otf" />
+    <Content Include="MasterPage.Master" />
+    <Content Include="Content\fonts\segoeui.eot" />
+    <Content Include="Content\fonts\segoeui.woff" />
+    <Content Include="Content\fonts\segoeuil.eot" />
+    <Content Include="Content\fonts\segoeuil.woff" />
     <None Include="scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="scripts\custom.js" />
+    <Content Include="scripts\home.js" />
     <Content Include="scripts\jquery-2.0.3.js" />
     <Content Include="scripts\jquery-2.0.3.min.js" />
-    <Content Include="toc.xhtml" />
+    <Content Include="scripts\jquery.dlmenu.js" />
+    <Content Include="scripts\jquery.gridly.js" />
+    <Content Include="scripts\jquery.smoothState.js" />
+    <Content Include="scripts\modernizr.custom.js" />
+    <Content Include="scripts\pagetransitions.js" />
+    <Content Include="scripts\products.js" />
     <Content Include="packages.config" />
     <Content Include="scripts\angular.min.js.map" />
     <Content Include="scripts\angular-animate.min.js.map" />
@@ -253,7 +293,6 @@
     <Content Include="image\SPECIAL_-_USB_Hub1.jpg" />
     <Content Include="image\Strap.jpg" />
     <Content Include="image\Vlag.jpg" />
-    <Content Include="Index.html" />
     <Content Include="Page-1.html" />
     <Content Include="Page-2.html" />
     <Content Include="Page-3.html" />
@@ -261,11 +300,39 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contact\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer-Service\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customer-Service\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>aspxcodebehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Products\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>aspxcodebehind</SubType>
+    </Compile>
+    <Compile Include="Products\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
