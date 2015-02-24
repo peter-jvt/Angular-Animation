@@ -24,12 +24,14 @@
                     $body.find('a').css('cursor', 'auto');
 
 
-                    $('#contents').addClass("is-exiting")
+                    $('#contents').addClass("is-exiting");
 
                     //$container.html($content);
-                    $('#contentsB').html($content.find('#content').html());
+                    $('#contentsB').html($content.filter('#contents').html());
 
-                    $('#contentsB').addClass("is-entering")
+                    updateHeights();
+
+                    $('#contentsB').addClass("is-entering");
 
 
                 }
