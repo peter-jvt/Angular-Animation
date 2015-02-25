@@ -3,12 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="content" runat="server">
-    <div class="container dynamicTile scene_element moveFromRight">
+    <div class="container block-container">
         <div class="row">
             <div class="col-md-6 col-sm-8 col-xs-4">
                 <div class="blocks">
                     <div class="block">
-                        <div class="carousel slide">
+                        <div class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <div class="image">

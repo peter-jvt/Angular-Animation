@@ -64,12 +64,27 @@ body {
 .container {
 }
 
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.page-mask {
+    width: 200%;
+    height: 100%;
+}
+
+.page {
+    width: 50%;
+}
+
 /* menu */
 .menu {
 }
 
-.menu-logo{
-    padding-top:5px;
+.menu-logo {
+    padding-top: 5px;
 }
 
 .menu-item {
@@ -120,6 +135,10 @@ body {
     }
 
 /* grid */
+.block-container {
+    margin-top: 20px;
+}
+
 .block {
     background-color: white;
     color: #a0a0a0;
@@ -215,73 +234,26 @@ body {
     background-color: #0359A6;
 }
 
-.dynamicTile {
-    margin-top: 20px;
+
+/* Loader */
+#blocker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background-color: #bbb;
+    z-index: 1000;
 }
 
-
-
-
-/* Elastic */
-.elastic {
-    display: table;
-}
-
-.elastic_col {
-    display: table-cell;
-}
-
-.valign-bottom {
-    vertical-align: bottom;
-}
-
-/* transitions */
-/*.pt-perspective {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	perspective: 1200px;
-	transform-style: preserve-3d;
-}
-
-.pt-page {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-
-	overflow: hidden;
-	backface-visibility: hidden;
-	transform: translate3d(0, 0, 0);
-}
-
-.pt-page-current,
-.no-js .pt-page {
-	visibility: visible;
-}
-
-.no-js body {
-	overflow: auto;
-}
-
-.pt-page-ontop {
-	z-index: 999;
-}*/
-
-
-/*
- * CSS Animations
- * Don't forget to add vendor prefixes!
- */
-/*.m-scene .scene_element {
-    animation-duration: 0.25s;
-    transition-timing-function: ease-in;
-    animation-fill-mode: both;
-}
-
-.m-scene.is-exiting .scene_element {
-    animation-direction: alternate-reverse;
-}*/
-
-
+    #blocker div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 5em;
+        height: 2em;
+        margin: -1em 0 0 -2.5em;
+        color: #fff;
+        font-weight: bold;
+    }

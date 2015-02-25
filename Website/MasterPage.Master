@@ -23,6 +23,9 @@
 </head>
 <body>
     <form id="form2" runat="server">
+        <div id="blocker">
+            <div>Loading...</div>
+        </div>
         <div id="main">
             <div id="header" class="header">
                 <div class="container">
@@ -79,11 +82,17 @@
                 </div>
             </div>
 
-            <div id="contents">
-                <asp:ContentPlaceHolder ID="content" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
-            <div id="contentsB">
+            <div class="page-wrapper">
+                <div class="page-mask">
+                    <div id="contents" class="page">
+                        <asp:ContentPlaceHolder ID="content" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                    <div id="contentsB" class="page">
+                        <asp:ContentPlaceHolder ID="contentb" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
             </div>
         </div>
     </form>

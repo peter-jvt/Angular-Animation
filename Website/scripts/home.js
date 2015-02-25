@@ -42,3 +42,7 @@ function updateHeights() {
     // TODO: deze ook verwerken want de hoogte kan ook hoger zijn maar het werkt nu
     //$(".item").height($("#tile1").width());
 }
+
+function animate() {
+    // Animate shit in here
+}
