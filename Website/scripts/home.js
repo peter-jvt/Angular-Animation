@@ -33,14 +33,8 @@ function updateHeights() {
         $(this).find('.carousel-inner').each(function () {
             $(this).height(h);
         });
-        
+
     });
-
-    //$(".tile").height($("#tile1").width());
-    //$(".carousel").height($("#tile1").width());
-
-    // TODO: deze ook verwerken want de hoogte kan ook hoger zijn maar het werkt nu
-    //$(".item").height($("#tile1").width());
 }
 
 function animate() {

@@ -87,7 +87,7 @@ $(function () {
                     //    active = '#contentsA';
                     //}
 
-                    console.debug(active);
+                    //console.debug(active);
                 }
             }
         }).data('smoothState');

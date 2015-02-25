@@ -37,16 +37,24 @@
                         <div class="col-md-6 col-sm-3 hidden-xs menu">
                             <div class="hidden-sm">
                                 <div class="col-xs-2 menu-item">
-                                    <a href="/" id="lnkHome" runat="server">Home</a>
+                                    <a href="/" id="lnkHome" runat="server">
+                                        <span>Home</span>
+                                    </a>
                                 </div>
                                 <div class="col-xs-3 menu-item">
-                                    <a href="/products/" id="lnkProducts" runat="server">products</a>
+                                    <a href="/products/" id="lnkProducts" runat="server">
+                                        <span>products</span>
+                                    </a>
                                 </div>
                                 <div class="col-xs-3 menu-item">
-                                    <a href="/">Single item</a>
+                                    <a href="/">
+                                        <span>Single item</span>
+                                    </a>
                                 </div>
                                 <div class="col-xs-4 menu-item">
-                                    <a href="/customer-service/" id="lnkCustomerService" runat="server">Customer Service</a>
+                                    <a href="/customer-service/" id="lnkCustomerService" runat="server">
+                                        <span>Customer Service</span>   
+                                    </a>
                                 </div>
                             </div>
                         </div>

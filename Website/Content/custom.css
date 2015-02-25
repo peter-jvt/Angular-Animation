@@ -108,6 +108,12 @@ body {
             font-weight: bold;
         }
 
+        .menu-item a span{
+            height:100%;
+            widht:100%;
+            display: block;
+        }
+
     .menu-item:hover {
         background-color: #F0F0F0;
     }
