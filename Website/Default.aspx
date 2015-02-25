@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-xs-6 col-sm-8 col-md-6">
                 <div class="blocks">
-                    <div class="block">
+                    <div class="block test-click">
                         <div class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="item active">
@@ -28,10 +28,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="block hidden-sm hidden-md hidden-lg">
+                    <div class="block hidden-sm hidden-md hidden-lg color2">
                         <div class="carousel slide">
                             <div class="carousel-inner">
-                                <div class="item active block-text color1">
+                                <div class="item active block-text">
                                     <div class="block-link-image">
                                     </div>
                                     <h3 class="block-caption">Special<br />

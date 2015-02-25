@@ -92,7 +92,7 @@
 
             <div class="page-wrapper">
                 <div class="page-mask">
-                    <div id="contents" class="page">
+                    <div id="contentsA" class="page">
                         <asp:ContentPlaceHolder ID="content" runat="server">
                         </asp:ContentPlaceHolder>
                     </div>

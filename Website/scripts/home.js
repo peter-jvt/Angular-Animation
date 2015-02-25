@@ -35,8 +35,13 @@ function updateHeights() {
         });
 
     });
+
+    $('.page-mask').width($('.page-wrapper').width());
+    $('.page').width($('.page-wrapper').width());
 }
 
 function animate() {
     // Animate shit in here
+    $('#contentsA').addClass('is-exiting');
+    $('#contentsB').addClass('is-exiting');
 }
