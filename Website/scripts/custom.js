@@ -2,8 +2,8 @@ var active;
 
 $(function () {
     $("#blocker").hide();
-
 });
+
 ; (function ($) {
     'use strict';
     var $body = $('html, body'),

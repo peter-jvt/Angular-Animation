@@ -211,6 +211,10 @@ body {
     color: white;
 }
 
+.block-text a, .block-text a:hover, .block-text a:active, .block-text a:visited{
+    text-decoration:none;
+}
+
 .block-caption {
     color: white;
     font-family: "Segoe UI Light";

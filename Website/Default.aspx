@@ -15,12 +15,12 @@
                                         <img src="http://cdn.shopix.nl/imagelib/img_11784.jpg/1000/1000/image.ashx" class="img-responsive" />
                                     </div>
                                     <div class="block-footer big">
-                                        <div class="col-md-9 pull-left">
+                                        <div class="col-xs-7 pull-left">
                                             Triangle backpack
                                                     <br />
                                             per piece
                                         </div>
-                                        <div class="col-md-3 pull-right block-footer-price">
+                                        <div class="col-xs-5 pull-right block-footer-price">
                                             € 4,50
                                         </div>
                                     </div>
@@ -48,21 +48,22 @@
                 <div class="blocks">
                     <div class="block color1">
                         <div class="carousel slide" data-ride="carousel">
-                            <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                                 <div class="item active block-text">
                                     <div class="block-link-image">
                                     </div>
-                                    <h3 class="block-caption">
-                                        <br />
-                                        Recently
+                                    <a href="/products/">
+                                        <h3 class="block-caption">
+                                            <br />
+                                            Recently
                                                         <br />
-                                        added
+                                            added
                                                         <br />
-                                        to our
+                                            to our
                                                         <br />
-                                        collection
-                                    </h3>
+                                            collection
+                                        </h3>
+                                    </a>
                                 </div>
                             </div>
                         </div>
