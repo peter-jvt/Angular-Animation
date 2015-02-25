@@ -198,6 +198,8 @@
     <Content Include="Content\fonts\segoeui.woff" />
     <Content Include="Content\fonts\segoeuil.eot" />
     <Content Include="Content\fonts\segoeuil.woff" />
+    <None Include="Properties\PublishProfiles\gemaco-dsm-test - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\gemaco-dsm-test - Web Deploy.pubxml" />
     <None Include="scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="scripts\custom.js" />
     <Content Include="scripts\home.js" />
