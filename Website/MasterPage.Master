@@ -92,12 +92,8 @@
 
             <div class="page-wrapper">
                 <div class="page-mask">
-                    <div id="contentsA" class="page">
+                    <div id="contents" class="page active">
                         <asp:ContentPlaceHolder ID="content" runat="server">
-                        </asp:ContentPlaceHolder>
-                    </div>
-                    <div id="contentsB" class="page">
-                        <asp:ContentPlaceHolder ID="contentb" runat="server">
                         </asp:ContentPlaceHolder>
                     </div>
                 </div>

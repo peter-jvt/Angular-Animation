@@ -45,26 +45,12 @@ $(function () {
                     // for restarting css animations with a class
                     // content.toggleAnimationClass('is-exiting');
                     // Scroll user to the top
+
+                    active = true;
+
                     $body.animate({
                         scrollTop: 0
                     });
-
-
-                    //                    $('.page-wrapper').fadeTo("slow", 0.33);
-
-                    //if (active) {
-                    //    $(active).addClass("is-exiting");
-                    //    if (active == '#contentsA') {
-                    //        active = '#contentsB';
-                    //    }
-                    //    else {
-                    //        active = '#contentsA';
-                    //    }
-                    //}
-                    //else {
-                    //    active = '#contentsA';
-                    //    $('#contentsA').addClass("is-exiting");
-                    //}
                 }
             },
             onProgress: {
@@ -73,7 +59,6 @@ $(function () {
                     $body.css('cursor', 'wait');
                     $body.find('a').css('cursor', 'wait');
 
-                    active = true;
                     var showTimeout = setTimeout(function () {
                         if (active) {
                             $('#blocker').show();
@@ -87,44 +72,28 @@ $(function () {
                     $body.css('cursor', 'auto');
                     $body.find('a').css('cursor', 'auto');
 
-                    //$container.html($content);
-                    //$('#contentsB').html($content.filter('#contents').html());
+                    var content = getContentById('#contents', $content);
+      
+                    $("#blocker").hide();
+                    var id = 'page-' + randomString(8);
+                    var page = jQuery('<div/>', {
+                        id: id,
+                        rel: 'external'
+                    })
+                    page.addClass('page');
+                    page.width($('.page-wrapper').width());
+                    page.html(content);
 
-                    //$('.page-wrapper').fadeIn();
-                    //$container.html($content);
-                    var content = getContentById('#contentsB', $content);
-
-                    $('#contentsB').html(content);
+                    $('.page-mask').append(page);
 
                     updateHeights();
+
                     active = false;
-                    $("#blocker").hide();
 
-                    animate();
-
-                    // $('#contentsB').addClass("is-entering");
-                    //console.debug(active);
-
-                    //if (active) {
-                    //    $(active).addClass("is-entering");
-                    //}
-                    //else {
-                    //    active = '#contentsB';
-                    //    $('#contentsB').addClass("is-entering");
-                    //}
-
-                    //if (active == '#contentsA') {
-                    //    active = '#contentsB';
-                    //}
-                    //else {
-                    //    active = '#contentsA';
-                    //}
-
-                    //console.debug(active);
+                    animate('.page.active', id.toString());
                 }
             }
         }).data('smoothState');
-    //.data('smoothState') makes public methods available
 })(jQuery);
 
 
@@ -177,4 +146,18 @@ function htmlDoc(html) {
     });
 
     return parent.children().unwrap();
+}
+
+function randomString(length) {
+    var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz'.split('');
+
+    if (!length) {
+        length = Math.floor(Math.random() * chars.length);
+    }
+
+    var str = '';
+    for (var i = 0; i < length; i++) {
+        str += chars[Math.floor(Math.random() * chars.length)];
+    }
+    return str;
 }

@@ -33,15 +33,16 @@ function updateHeights() {
         $(this).find('.carousel-inner').each(function () {
             $(this).height(h);
         });
-
     });
 
-    $('.page-mask').width($('.page-wrapper').width());
     $('.page').width($('.page-wrapper').width());
 }
 
-function animate() {
+function animate(id1, id2) {
     // Animate shit in here
-    $('#contentsA').addClass('is-exiting');
-    $('#contentsB').addClass('is-exiting');
+    $(id1).addClass('is-exiting');
+    $(id2).addClass('is-exiting');
+
+    $(id1).removeClass('active');
+    $(id2).addClass('active');
 }
