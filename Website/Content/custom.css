@@ -1,38 +1,25 @@
 ﻿@font-face {
-    font-family: Montserrat;
+    font-family: "Montserrat Bold";
     font-style: normal;
     font-weight: bold;
-    src: url("fonts/Montserrat-Bold.otf");
+    src: url('fonts/Montserrat-Bold.eot');
+    src: url('fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Montserrat-Bold.woff') format('woff'), url('fonts/Montserrat-Bold.svg') format('svg');
 }
 
 @font-face {
     font-family: "Montserrat Hairline";
     font-style: normal;
     font-weight: 200;
-    src: url("fonts/Montserrat-Hairline.otf");
+    src: url('fonts/Montserrat-Hairline.eot');
+    src: url('fonts/Montserrat-Hairline.eot?#iefix') format('embedded-opentype'), url('fonts/Montserrat-Hairline.woff') format('woff'), url('fonts/Montserrat-Hairline.svg') format('svg');
 }
 
 @font-face {
     font-family: "Montserrat Light";
     font-style: normal;
     font-weight: 300;
-    src: url("fonts/Montserrat-Light.otf");
-}
-
-@font-face {
-    font-family: "Segoe UI";
-    src: url('fonts/segoeui.eot');
-    src: local("Segoe UI"), local("Segoe"), local("Segoe WP"), url('fonts/segoeui.eot?#iefix') format('embedded-opentype'), url('fonts/segoeui.woff') format('woff'), url('fonts/segoeui.svg#SegoeUI') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Segoe UI Light";
-    src: url('/surface/Assets/css/fonts/all/light/segoeuil.eot');
-    src: local("Segoe UI Light"), local("Segoe WP Light"), url('/surface/Assets/css/fonts/all/light/segoeuil.eot?#iefix') format('embedded-opentype'), url('/surface/Assets/css/fonts/all/light/segoeuil.woff') format('woff'), url('/surface/Assets/css/fonts/all/light/segoeuil.svg#SegoeUILight') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    src: url('fonts/Montserrat-Light.eot');
+    src: url('fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'), url('fonts/Montserrat-Light.woff') format('woff'), url('fonts/Montserrat-Light.svg') format('svg');
 }
 
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
@@ -95,8 +82,8 @@ body {
     .menu-item a {
         letter-spacing: 0.70px;
         color: #787878;
-        font-family: Montserrat,sans-serif;
-        font-size: 13px;
+        font-family: 'Montserrat Light';
+        font-size: 14px;
         font-style: normal;
         text-transform: uppercase;
         white-space: nowrap;
@@ -104,7 +91,7 @@ body {
     }
 
         .menu-item a.active {
-            font-weight: bold;
+            font-family: 'Montserrat Bold'
         }
 
         .menu-item a span {
@@ -122,7 +109,7 @@ body {
     line-height: 41px;
     letter-spacing: 0px;
     color: #787878;
-    font-family: Montserrat,sans-serif;
+    font-family: 'Montserrat Hairline';
     font-size: 10px;
     font-style: normal;
     text-transform: uppercase;
@@ -147,7 +134,7 @@ body {
 .block {
     background-color: white;
     color: #a0a0a0;
-    font-family: "Montserrat Light",sans-serif;
+    font-family: "Montserrat Light";
     overflow: hidden;
     cursor: pointer;
 }
@@ -185,13 +172,14 @@ body {
 .block-footer {
     color: #a0a0a0;
     display: inline-block;
-    font-family: "Montserrat Light",sans-serif;
-    font-size: 12px;
+    font-family: "Montserrat Light";
+    font-size: 13px;
     margin-right: 18px;
     padding: 10px;
     text-align: left;
     vertical-align: bottom;
     width: 100%;
+    line-height: 17px;
 }
 
     .block-footer .big {
@@ -216,14 +204,14 @@ body {
 
 .block-caption {
     color: white;
-    font-family: "Segoe UI Light";
-    font-weight: lighter;
+    font-family: 'Montserrat Light';
     font-size: 30px;
     margin: 0 !important;
     padding-left: 10%;
-    padding-top: 20%;
+    padding-top: 30%;
     position: relative;
     text-align: left;
+    vertical-align:bottom;
 }
 
 .blocks .block {

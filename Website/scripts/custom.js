@@ -51,6 +51,8 @@ $(function () {
                     $body.animate({
                         scrollTop: 0
                     });
+
+                    $('.page.active').removeClass('is-exiting');
                 }
             },
             onProgress: {
@@ -67,12 +69,14 @@ $(function () {
                 }
             },
             onEnd: {
-                duration: 0, // Duration of the animations, if any.
+                duration: 250, // Duration of the animations, if any.
                 render: function (url, $container, $content) {
                     $body.css('cursor', 'auto');
                     $body.find('a').css('cursor', 'auto');
 
                     var content = getContentById('#contents', $content);
+                    var header = getContentById('#header', $content);
+                    $('#header').html(header);
       
                     $("#blocker").hide();
                     var id = 'page-' + randomString(8);
@@ -90,7 +94,7 @@ $(function () {
 
                     active = false;
 
-                    animate('.page.active', id.toString());
+                    animate('.page.active', '#' + id.toString());
                 }
             }
         }).data('smoothState');
